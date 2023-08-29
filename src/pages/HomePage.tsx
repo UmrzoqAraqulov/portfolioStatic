@@ -21,8 +21,8 @@ const HomePage = () => {
         <p>I'm a passionate</p>
         <p className="pt-3 wrapper">
           <div className="words">
-            {fields.map((el) => (
-              <p className="wrapper-item">{el}</p>
+            {fields.map((el,id) => (
+              <p key={id} className="wrapper-item">{el}</p>
             ))}
           </div>
         </p>

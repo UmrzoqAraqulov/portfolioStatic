@@ -34,6 +34,11 @@ const Nav = ({ show, setShow }: { show: boolean; setShow: (el:boolean) => void }
           Contact
         </NavLink>
       </li>
+      <li>
+        <NavLink onClick={() => setShow(false)} to="/createportfolio">
+          Create your Portfolio
+        </NavLink>
+      </li>
       <i
         onClick={() => setShow(false)}
         className="fa-solid fa-xmark absolute top-3 right-5 text-2xl hidden max-[800px]:block cursor-pointer"
