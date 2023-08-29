@@ -57,7 +57,7 @@ const PortfoliosPage = () => {
         </div>
         <div
           style={{
-            background: `url(${portfoliosData[0].photo})`,
+            background: `url(${portfoliosData[1].photo})`,
             backgroundSize: "cover",
           }}
           className="portfolio-card w-full h-[250px]"
