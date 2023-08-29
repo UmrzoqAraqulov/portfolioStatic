@@ -4,7 +4,7 @@ const ResumePage = () => {
   const educationsData = [
     {
       name: "Ziyo Yog'dusi",
-      level: "10",
+      level: "A strong learning center",
       description:
         "When I went to Ziya Yogdusi training center, my brain was not used yet, there I got a lot of knowledge and skills from my teachers Nurbek Majidov, Lochin I., I was motivated and headed towards my goal.",
       startDate: "01.09.2017",
@@ -13,7 +13,7 @@ const ResumePage = () => {
     },
     {
       name: "Najot Ta'lim",
-      level: "10",
+      level: "A strong learning center",
       description:
         "The quality of teaching in Najot educational training center is good, the teachers have good knowledge and can share good knowledge, the conditions for teaching are good and the team is friendly.",
       startDate: "01.04.2023",
@@ -22,7 +22,7 @@ const ResumePage = () => {
     },
     {
       name: "National University of Uzbekistan",
-      level: "10",
+      level: "A strong university",
       description:
         "Men Mirzo Ulug'bek nomidagi Uzbekiston milliy universitetiga  kelganimda odiiy,sodda qishloq bolasi edim.Yaxshi bilim olish uzimni yaxshi tanib olishim shu nuqtadan boshlangan men bu yerda uzimni topdim,yo'nalishimni topdim. Ustozlarimdan ko'p bo'lmasada bilim oldim hamma ustozlarimga rahmat.",
       startDate: "01.09.2019",
