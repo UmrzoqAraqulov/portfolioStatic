@@ -28,7 +28,7 @@ const HomePage = () => {
         </p>
         <p>from Uzbekistan</p>
       </div>
-      <div className="pt-[40px] max-[800px]:hidden">
+      <div className="pt-[40px] max-[800px]:pt-0">
         <Nav show={show} setShow={setShow} />
       </div>
       <div className="flex gap-2 mt-8">
