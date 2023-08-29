@@ -1,5 +1,5 @@
 import NajotNews from "../assets/najotNews.jpg";
-import vohaParfum from "../assets/najotNews.jpg";
+import vohaParfum from "../assets/porfum.jpg";
 import { Link } from "react-router-dom";
 
 const PortfoliosPage = () => {
