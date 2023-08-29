@@ -72,7 +72,7 @@ export interface PortfolioForm {
   name: string;
   url: string;
   description: string;
-  photo: { _id: string; name: string };
+  photo: string;
   _id?: string;
 }
 

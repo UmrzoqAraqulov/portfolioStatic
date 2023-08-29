@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
 import { PortfolioForm } from "../../types";
-import img from "../../assets/me.jpg"
+import NajotNews from "../../assets/najotNews.jpg";
+import vohaParfum from "../assets/najotNews.jpg";
 
-const PortfolioCard = ({_id,name,url,description}:PortfolioForm) => {
+const PortfolioCard = ({_id,name,url,photo,description}:PortfolioForm) => {
   return (
     <div
       key={_id}
       style={{
-        background: `url(${
-          img
-        })`, 
+        background: photo,
         backgroundSize: "cover",
       }}
       className="portfolio-card w-full max-h-[100px]"
